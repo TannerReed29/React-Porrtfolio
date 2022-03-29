@@ -1,5 +1,4 @@
 import React from "react";
-//import ProjectList from '../ProjectList';
 import BrewMe from "../../assets/BrewMe.jpg";
 import PawWalkers from "../../assets/PawWalkers.jpg";
 import BudgetTracker from "../../assets/BudgetTracker.jpg";
@@ -17,6 +16,7 @@ function Project() {
                 <div className="col">
                     <div className="card">
                         <img src={BrewMe} alt="brewMe" className="card-img-top" />
+                        <div className="card-title"><h3>BrewMe</h3></div>
                         <div class="card-body">
                             <a href="https://github.com/jessebubble/brew-me" target="blank" rel="noreferrer">
                                 <button>Github</button>
@@ -32,6 +32,7 @@ function Project() {
                 <div className="col">
                     <div className="card">
                         <img src={PawWalkers} alt="pawWalkers" className="card-img-top" />
+                        <div className="card-title"><h3>Paw Walkers</h3></div>
                         <div className="card-body">
                             <a href="https://github.com/iyanez2314/dog-walkers" target="blank" rel="noreferrer">
                                 <button>Github</button>
@@ -47,6 +48,7 @@ function Project() {
                 <div className="col">
                     <div className="card">
                         <img src={BudgetTracker} alt="budgetTracker" className="card-img-top" />
+                        <div className="card-title"><h3>PWA Budget Tracker</h3></div>
                         <div class="card-body">
                             <a href="https://github.com/TannerReed29/PWA-Budget-Tracker" target="blank" rel="noreferrer">
                                 <button>Github</button>
@@ -62,6 +64,7 @@ function Project() {
                 <div className="col">
                     <div className="card">
                         <img src={TechBlog} alt="techBlog" className="card-img-top" />
+                        <div className="card-title"><h3>MVC Tech Blog</h3></div>
                         <div className="card-body">
                             <a href="https://github.com/TannerReed29/MVC-Tech-Blog" target="blank" rel="noreferrer">
                                 <button>Github</button>
@@ -77,6 +80,7 @@ function Project() {
                 <div className="col">
                     <div className="card">
                         <img src={SocialNetworkAPI} alt="socialNetwork" className="card-img-top" />
+                        <div className="card-title"><h3>Social Network API</h3></div>
                         <div className="card-body">
                             <a href="https://github.com/TannerReed29/Social-Network-API" target="blank" rel="noreferrer">
                                 <button>Github</button>
@@ -92,6 +96,7 @@ function Project() {
                 <div className="col">
                     <div className="card">
                         <img src={NoteTaker} alt="noteTaker" className="card-img-top" />
+                        <div className="card-title"><h3>Note Taker</h3></div>
                         <div className="card-body">
                             <a href="https://github.com/TannerReed29/Note-Taker" target="blank" rel="noreferrer">
                                 <button>Github</button>
