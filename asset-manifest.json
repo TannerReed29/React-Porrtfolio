@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-Porrtfolio/static/css/main.2073da31.css",
+    "main.js": "/React-Porrtfolio/static/js/main.a75397d2.js",
+    "static/js/787.a2cb61a6.chunk.js": "/React-Porrtfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/heroImage.jpg": "/React-Porrtfolio/static/media/heroImage.feaa14fb3519fd1b4372.jpg",
+    "static/media/BrewMe.jpg": "/React-Porrtfolio/static/media/BrewMe.db94947353f4c94c7751.jpg",
+    "static/media/BudgetTracker.jpg": "/React-Porrtfolio/static/media/BudgetTracker.5c33ea57593312f5cfe0.jpg",
+    "static/media/TechBlog.jpg": "/React-Porrtfolio/static/media/TechBlog.7cfce5b39cb1be46357e.jpg",
+    "static/media/SocialNetwork.jpg": "/React-Porrtfolio/static/media/SocialNetwork.74005333651da867e636.jpg",
+    "static/media/PawWalkers.jpg": "/React-Porrtfolio/static/media/PawWalkers.4b874e855a4863bb5907.jpg",
+    "static/media/NoteTaker.jpg": "/React-Porrtfolio/static/media/NoteTaker.3d6beae2a09d3101f0b0.jpg",
+    "index.html": "/React-Porrtfolio/index.html",
+    "main.2073da31.css.map": "/React-Porrtfolio/static/css/main.2073da31.css.map",
+    "main.a75397d2.js.map": "/React-Porrtfolio/static/js/main.a75397d2.js.map",
+    "787.a2cb61a6.chunk.js.map": "/React-Porrtfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2073da31.css",
+    "static/js/main.a75397d2.js"
+  ]
+}
