@@ -30,7 +30,7 @@ You may also see any lint errors in the console.
 
 ## Deployment
 
-[Deployed App](https://tannerreed29.github.io/React-Porrtfolio/#/)
+[Deployed App](https://tannerreed29.github.io/React-Pro-Portfolio/)
 
 ## Questions
 
