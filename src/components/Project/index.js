@@ -1,4 +1,5 @@
 import React from "react";
+import GoGo from "../../assets/GoGo.jpg";
 import BrewMe from "../../assets/BrewMe.jpg";
 import PawWalkers from "../../assets/PawWalkers.jpg";
 import BudgetTracker from "../../assets/BudgetTracker.jpg";
@@ -11,8 +12,26 @@ function Project() {
 
     return (
         <section className="project">
-
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
+                {/* GoGoGomez, any new Projects to add just copy the card */}
+                <div className="col">
+                    <div className="card">
+                        <img src={GoGo} alt="gogogomez" className="card-img-top" />
+                        <div className="card-title"><h3>GoGoGomez</h3></div>
+                        <div class="card-body">
+                            <a href="https://github.com/chellesjord/gogogomez" target="blank" rel="noreferrer">
+                                <button>Github</button>
+                            </a>
+                            <a href="https://shrouded-journey-40287.herokuapp.com/" target="blank" rel="noreferrer">
+                                <button>Live Page</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
                 <div className="col">
                     <div className="card">
                         <img src={BrewMe} alt="brewMe" className="card-img-top" />

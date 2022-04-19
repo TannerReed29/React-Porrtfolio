@@ -37,27 +37,29 @@ function Contact() {
   };
 
   return (
-    <section>
+    <section className='contact-form form-control'>
       <h1 data-testid="h1tag">Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+      <form className=' form-control-sm mx-5 my-2' id="contact-form" onSubmit={handleSubmit}>
+        <div className='form-floating m-2'>
+          <input className='form-control' type="text" id="floatingInputname" placeholder="name" name="name" defaultValue={name} onBlur={handleChange} />
+          <label for="floatingInputname" htmlFor="name">Name</label>
         </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+        <div className='form-floating m-2'>
+          <input className='form-control' type="email" id="floatingInput" placeholder="name@example.com" name="email" defaultValue={email} onBlur={handleChange} />
+          <label for="floatingInput" htmlFor="email">Email address</label>
         </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+        <div className='form-floating m-2'>
+          <textarea className='form-control Msg msg' id="floatingInputmsg" placeholder="Enter your message here." name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+          <label for="floatingInputmsg" htmlFor="message">Enter your message here.</label>
         </div>
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" type="submit">Submit</button>
+        <div className='my-3'>
+          <button data-testid="button" type="submit" class="btn btn-outline-success submit-contact">Submit</button>
+        </div>
       </form>
     </section>
   );

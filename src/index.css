@@ -12,3 +12,173 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+    /* Custom Classes */
+
+        /* ABOUT ME PAGE */
+
+        .about{
+          background-image: url(./assets/heroImage.jpg);
+        }
+
+
+        /* END ABOUT ME PAGE */
+
+
+
+        /* PROJECTS PAGE */
+
+
+
+
+        /* END PROJECTS PAGE */
+        
+        
+        
+        
+        /* CONTACT PAGE */
+
+
+        /* .contact-form {
+          text-align: center;
+          margin: auto;
+          padding: 3rem;
+        } */
+        
+
+        /* .submit-contact{
+          padding-top: .3rem;
+        } */
+        
+        
+        /*  END CONTACT PAGE */
+
+
+
+
+        /* RESUME PAGE */
+
+
+
+
+
+
+    /* Custom IDS */
+
+
+
+        /* ABOUT ME PAGE */
+        
+        /* #about-title{
+          font-size: 4.6rem;
+        }
+        
+        
+        #about-text{
+          display: flex;
+          flex-shrink: calc(1.2rem);
+          font-size: 2.3rem;
+        } */
+
+        
+        
+        /* END ABOUT ME PAGE */
+
+
+
+        /* PROJECTS PAGE */
+
+
+
+
+        /* END PROJECTS PAGE */
+        
+        
+        
+        
+        /* CONTACT PAGE */
+
+
+
+
+        /* RESUME PAGE */
+
+
+
+
+        
+
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  /* .column {
+    width: 50%;
+  } */
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+
+
+  /* ABOUT ME PAGE */
+        
+  #about-title{
+    font-size: 2.1rem;
+  }
+  
+  
+  #about-text{
+    display: flex;
+    font-size: 1.1rem;
+  }
+
+  
+  
+  /* END ABOUT ME PAGE */
+  
+  
+  
+  /* CONTACT ME PAGE */
+
+
+  /* .contact-form {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin: 8px 16px;
+    padding: 2rem;
+    /* box-sizing: content-box; 
+  } */
+/* 
+  text-area{
+    padding: 1rem;
+    display: flex;
+    box-sizing: content-box;
+    height: fit-content;
+    width: 100px;
+    resize: horizontal 200px;
+  } */
+  
+  
+  
+  /* END COTACT ME PAGE */
+
+
+
+
+
+
+  /* .column {
+    width: 100%;
+  } */
+}
