@@ -7,15 +7,18 @@
   --secondary: #12659c;
   --tertiary: #001644;
   --light: #fafafa;
-  --dark: #1a1a1a;
+  --dark: #292929;
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
+  --spacing-ten: calc(5rem);
 }
 
 html,
 body {
   min-height: 100%;
+  /* background-image: url("../src/assets/bg-hex.jpg");
+  background-size: cover; */
 }
 
 body {
@@ -25,7 +28,8 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--dark);
+  background-image: url("../src/assets/bg-pillar.jpg");
+  background-size: cover;
   color: var(--light);
   display: flex;
   flex-direction: column;
@@ -105,8 +109,9 @@ header {
   justify-content: center;
   align-items: baseline;
   padding: 10px;
-  border-bottom: 2px solid black;
+  border-bottom: 10px solid var(--dark);
   background-image: url("../src/assets/heroImage.jpg");
+  background-size: cover;
 }
 
 header a {
@@ -149,9 +154,9 @@ img {
   max-width: 100%;
 }
 
-/* form {
-  width: 33%;
-} */
+form {
+  width: 50%;
+}
 
 input {
   font-size: 1rem;
@@ -262,6 +267,15 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
+.pb-5 {
+  padding-bottom: var(--spacing-five);
+}
+
+
+.pb-10 {
+  padding-bottom: var(--spacing-ten);
+}
+
 .card {
   text-align: center;
 }
@@ -319,18 +333,19 @@ footer {
   clear: both;
   height: 100px;
   width: 100%;
-  position: relative;
+  position: fixed;
   bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   border-top: 2px solid black;
-  background: var(--secondary);
+  color: var(--light);
+  background: var(--dark);
 }
 
 footer ul li {
   display: inline;
   font-size: 2rem;
   padding: 1rem;
-  color: black;
+  color: var(--secondary);
 }

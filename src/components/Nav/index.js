@@ -6,19 +6,19 @@ import { Link } from "react-router-dom"
 function Nav() {
 
   return (
-    <nav className='navbar'>
-        <ul className='flex-row'>
-            <li className='mx-2'>
-                <Link to="/about">About Me</Link>
+    <nav className='navbar navbar-expand-lg'>
+        <ul className='nav nav-tabs justify-content-center'>
+            <li className='nav-item mx-2'>
+                <Link className='nav-link' to="/about">About Me</Link>
             </li>
-            <li className='mx-2'>
-                <Link to="/project">Projects</Link>
+            <li className='nav-item mx-2'>
+                <Link className='nav-link' to="/project">Projects</Link>
             </li>
-            <li className='mx-2'>
-                <Link to="/contact">Contact</Link>
+            <li className='nav-item mx-2'>
+                <Link className='nav-link' to="/contact">Contact</Link>
             </li>
-            <li className='mx-2'>
-                <Link to="/resume">Resume</Link>
+            <li className='nav-item mx-2'>
+                <Link className='nav-link' to="/resume">Resume</Link>
             </li>
         </ul>
     </nav>

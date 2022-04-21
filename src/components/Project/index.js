@@ -1,4 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom"
+
+
+
 import GoGo from "../../assets/GoGo.jpg";
 import BrewMe from "../../assets/BrewMe.jpg";
 import PawWalkers from "../../assets/PawWalkers.jpg";
@@ -11,7 +15,10 @@ import NoteTaker from "../../assets/NoteTaker.jpg";
 function Project() {
 
     return (
-        <section className="project">
+        <section className="project pb-10">
+            <div className="d-grid gap-2 col-6 mx-auto">
+            <Link className='btn btn-danger' to="/passwordgen">Password Generator</Link>
+            </div>
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
                 {/* GoGoGomez, any new Projects to add just copy the card */}
                 <div className="col">

@@ -7,9 +7,9 @@ import Nav from "../Nav";
 function Header() {
     return (
         <header className="flex-row px-1">
-            <div className="logo">
-                <h1  className="title">
-                    <Link to="/">Tanner Brieger</Link>
+            <div className="navbar logo">
+                <h1  className="container-fluid title">
+                    <Link className="navbar-brand" to="/">TRB</Link>
                 </h1>
             </div>
             <Nav></Nav>
