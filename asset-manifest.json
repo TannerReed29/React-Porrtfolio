@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/React-Pro-Portfolio/static/css/main.dcb8baa0.css",
-    "main.js": "/React-Pro-Portfolio/static/js/main.e722a6c2.js",
+    "main.css": "/React-Pro-Portfolio/static/css/main.9cc61ed0.css",
+    "main.js": "/React-Pro-Portfolio/static/js/main.1c8bfecf.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Pro-Portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/heroImage.jpg": "/React-Pro-Portfolio/static/media/heroImage.feaa14fb3519fd1b4372.jpg",
+    "static/media/heroImage.jpg": "/React-Pro-Portfolio/static/media/heroImage.99f05a69fceadff6b2e7.jpg",
+    "static/media/bg-pillar.jpg": "/React-Pro-Portfolio/static/media/bg-pillar.176f08d978dcaca55b44.jpg",
     "static/media/GoGo.jpg": "/React-Pro-Portfolio/static/media/GoGo.237b7d050335416ebecc.jpg",
     "static/media/BrewMe.jpg": "/React-Pro-Portfolio/static/media/BrewMe.db94947353f4c94c7751.jpg",
     "static/media/BudgetTracker.jpg": "/React-Pro-Portfolio/static/media/BudgetTracker.5c33ea57593312f5cfe0.jpg",
@@ -12,12 +13,12 @@
     "static/media/PawWalkers.jpg": "/React-Pro-Portfolio/static/media/PawWalkers.4b874e855a4863bb5907.jpg",
     "static/media/NoteTaker.jpg": "/React-Pro-Portfolio/static/media/NoteTaker.3d6beae2a09d3101f0b0.jpg",
     "index.html": "/React-Pro-Portfolio/index.html",
-    "main.dcb8baa0.css.map": "/React-Pro-Portfolio/static/css/main.dcb8baa0.css.map",
-    "main.e722a6c2.js.map": "/React-Pro-Portfolio/static/js/main.e722a6c2.js.map",
+    "main.9cc61ed0.css.map": "/React-Pro-Portfolio/static/css/main.9cc61ed0.css.map",
+    "main.1c8bfecf.js.map": "/React-Pro-Portfolio/static/js/main.1c8bfecf.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Pro-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcb8baa0.css",
-    "static/js/main.e722a6c2.js"
+    "static/css/main.9cc61ed0.css",
+    "static/js/main.1c8bfecf.js"
   ]
 }
