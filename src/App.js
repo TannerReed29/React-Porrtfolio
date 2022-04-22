@@ -10,7 +10,7 @@ import Contact from './components/Contact';
 import Project from './components/Project';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
-import PasswordGen from './components/PasswordGen';
+// import PasswordGen from './components/PasswordGen';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -28,7 +28,7 @@ class App extends Component {
             <Route exact path="/contact" element={<Contact />} />
             <Route exact path="/project" element={<Project />} />
             <Route exact path="/resume" element={<Resume />} />
-            <Route exact path="/passwordgen" element={<PasswordGen />} />
+            {/* <Route exact path="/passwordgen" element={<PasswordGen />} /> */}
             </Routes>
           </main>
         </div>

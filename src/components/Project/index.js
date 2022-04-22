@@ -12,6 +12,12 @@ import SocialNetworkAPI from "../../assets/SocialNetwork.jpg";
 import NoteTaker from "../../assets/NoteTaker.jpg";
 
 
+// WOULD LIKE TO SET THIS UP TO GITHUB API TO POST ALL MY GITHUB PROJECTS WITH DATA RECEIVED
+
+// ADD MORE PROJECTS
+// NEED TO MAKE CARDS LOOK BETTER WITH MORE DATA 
+
+
 function Project() {
 
     return (

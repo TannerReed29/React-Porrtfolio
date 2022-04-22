@@ -1,38 +1,38 @@
-import React from "react";
-import { useState } from "react";
-import { pwgchoices } from '../../utils/pwgchoices';
+// import React from "react";
+// import { useState } from "react";
+// import { pwgchoices } from '../../utils/pwgchoices';
 // import { validateEmail } from '../../utils/helpers';
 
 
-function PWGen() {
-const [checkedState, setCheckedState] = useState(
-  new Array(pwgchoices.length).fill(false)
-);
+// function PWGen() {
+// const [checkedState, setCheckedState] = useState(
+//   new Array(pwgchoices.length).fill(false)
+// );
 
-const [choice, setChoice] = useState("");
+// const [choice, setChoice] = useState("");
 
 
-const handleOnChange = (position) => {
-  const updateCheckedState = checkedState.map((item, index) =>
-    index === position ? !item : item
-  );
+// const handleOnChange = (position) => {
+//   const updateCheckedState = checkedState.map((item, index) =>
+//     index === position ? !item : item
+//   );
 
-  setCheckedState(updateCheckedState);
+//   setCheckedState(updateCheckedState);
 
-  const choices = updateCheckedState.reduce(
-    (passArr, currentState, index) => {
-      if (currentState === true) {
-        console.log(pwgchoices[index].choice);
-        return passArr + pwgchoices[index].choice;
-      }
-      return passArr;
-    },
-    );
-  // console.log(pwgchoices);
-  setChoice(choices);
-    console.log(choice);
+//   const choices = updateCheckedState.reduce(
+//     (passArr, currentState, index) => {
+//       if (currentState === true) {
+//         console.log(pwgchoices[index].choice);
+//         return passArr + pwgchoices[index].choice;
+//       }
+//       return passArr;
+//     },
+//     );
+//   // console.log(pwgchoices);
+//   setChoice(choices);
+//     console.log(choice);
 
-};
+// };
 
 // var criteria = []; 
 
@@ -138,59 +138,105 @@ const handleOnChange = (position) => {
 
 
 
-    return (
-        <section>
-            <div class="wrapper">
-                <header>
-                    <h1>Password Generator</h1>
-                </header>
-                <div class="card">
-                    <div class="card-header">
-                        <h2>Generate a Password</h2>
-                            </div>
-                    <div class="card-body">
-                        <h3>Select Password Criteria</h3>
-                        <ul className="pwgen-list">
-                          {pwgchoices.map(({ name }, index) => {
-                            return (
-                              <li key={index}>
-                                <div className="pwgen-list-item">
-                                  <div className="left-section">
-                                    <input
-                                      type="checkbox"
-                                      id={`custom-checkbox-${index}`}
-                                      name={name}
-                                      value={name}
-                                      checked={checkedState[index]}
-                                      onChange={() => handleOnChange(index)} 
-                                    />
-                                    <label htmlFor={`custom-checkbox-${index}`}>{name}</label>
-                                  </div>
-                                </div>
-                              </li>
-                            )
-                          })}
-                        </ul>
-                        <textarea
-                            readOnly
-                            id="password"
-                            placeholder="Your Secure Password"
-                            aria-label="Generated Password"
-                        >
+//     return (
+//         <section>
+//             <div class="wrapper">
+//                 <header>
+//                     <h1>Password Generator</h1>
+//                 </header>
+//                 <div class="card">
+//                     <div class="card-header">
+//                         <h2>Generate a Password</h2>
+//                             </div>
+//                     <div class="card-body">
+//                         <h3>Select Password Criteria</h3>
+//                         <ul className="pwgen-list">
+//                           {pwgchoices.map(({ name }, index) => {
+//                             return (
+//                               <li key={index}>
+//                                 <div className="pwgen-list-item">
+//                                   <div className="left-section">
+//                                     <input
+//                                       type="checkbox"
+//                                       id={`custom-checkbox-${index}`}
+//                                       name={name}
+//                                       value={name}
+//                                       checked={checkedState[index]}
+//                                       onChange={() => handleOnChange(index)} 
+//                                     />
+//                                     <label htmlFor={`custom-checkbox-${index}`}>{name}</label>
+//                                   </div>
+//                                 </div>
+//                               </li>
+//                             )
+//                           })}
+//                         </ul>
+//                         <textarea
+//                             readOnly
+//                             id="password"
+//                             placeholder="Your Secure Password"
+//                             aria-label="Generated Password"
+//                         >
                          
-                          {/* {WritePassword()} */}
+//                           {/* {WritePassword()} */}
                           
                           
-                          </textarea>
-                    </div>
-                    <div class="card-footer">
-                        <button type="submit" id="generate" class="btn btn-success" >Generate Password</button>
-                        {/* <button type="submit" id="generate" class="btn btn-success" onSubmit={handleSubmit}>Generate Password</button> */}
-                    </div>
-                </div>
-            </div>
-        </section>
-    );
-}
+//                           </textarea>
+//                     </div>
+//                     <div class="card-footer">
+//                         <button type="submit" id="generate" class="btn btn-success" >Generate Password</button>
+//                         {/* <button type="submit" id="generate" class="btn btn-success" onSubmit={handleSubmit}>Generate Password</button> */}
+//                     </div>
+//                 </div>
+//             </div>
+//         </section>
+//     );
+// }
 
-export default PWGen;
+// export default PWGen;
+
+
+
+// https://thewebdev.info/2022/03/26/how-to-focus-a-react-material-ui-textfield-on-button-click/
+
+
+
+
+
+
+
+// import React, { useContext, useState } from "react";
+
+// const Context = React.createContext();
+
+// const Foo = () => {
+//   const [, setVal] = useContext(Context);
+
+//   return (
+//     <div>
+//       <button onClick={() => setVal("foo")}>foo</button>
+//     </div>
+//   );
+// };
+
+// const Bar = () => {
+//   const [, setVal] = useContext(Context);
+
+//   return (
+//     <div>
+//       <button onClick={() => setVal("bar")}>bar</button>
+//     </div>
+//   );
+// };
+
+// export default function App() {
+//   const [val, setVal] = useState();
+
+//   return (
+//     <Context.Provider value={[val, setVal]}>
+//       <Foo />
+//       <Bar />
+//       <p>{val}</p>
+//     </Context.Provider>
+//   );
+// }
